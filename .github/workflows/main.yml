@@ -16,7 +16,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt -y install build-essential tree
-        sudo cpan install Data::Table::Text Module::Build Digest::SHA1 JSON Date::Manip
+        sudo cpan install Data::Table::Text Module::Build Digest::SHA1 JSON Date::Manip Math::Permute::List
 
 
 
